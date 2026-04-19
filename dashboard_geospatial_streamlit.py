@@ -375,3 +375,8 @@ with col3:
         f"<b style='font-size: 22px;'>NOW WHAT</b><br><div style='margin-bottom: 20px;'>{now_what_text}</div></div>",
         unsafe_allow_html=True
     )
+    
+st.markdown(
+    "<p style='text-align: right; color: grey; font-size: 12px;'>Source data: https://www.gapminder.org/data/</p>",
+    unsafe_allow_html=True
+)
